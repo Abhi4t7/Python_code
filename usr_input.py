@@ -1,0 +1,6 @@
+name=input("Enter name")
+id =int(input("Enter id"))
+number=int(input("Enter mobile number"))
+print(name)
+print(id)
+print(number)

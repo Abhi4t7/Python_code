@@ -1,0 +1,12 @@
+class computer:
+    def __init__(self,x):
+        self.x=x
+
+    def confg(self):
+        print("1TB 8GB I5")
+        print(self.x)
+
+comp1=computer(5)
+#computer.confg(comp1)
+comp1.confg()
+

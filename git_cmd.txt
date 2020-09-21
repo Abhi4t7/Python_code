@@ -8,6 +8,7 @@ git checkout -- filename --------revert the code changes
 git checkout -- .   -------------revert all changes from all file
 git restore file name ---------restore the orignal file
 git reset --hard commit-id ----reset the deleted files from last commit
+git reset --soft HEAD~1 -------delete commited files from commit
 git revert commit id  ---------restore deleted files..
 git branch -------list all branches
 git branch new_branch ------add new branch

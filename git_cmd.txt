@@ -15,4 +15,5 @@ git branch new_branch ------add new branch
 git checkout new_branch -------activate the new branch
 git push --set-upstream origin branchname ----add new branch in cloud
 git branch -D branchname ----------------to delet branch
+git push origin --delete new_branc-----------delte branch
 git difftool HEAD~2 HEAD~1

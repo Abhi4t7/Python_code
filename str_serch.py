@@ -1,4 +1,7 @@
 str="Abhijit"
-print('A' in str)
-print('z' in str)
+if print('A' in str):
+    print("A is present")
+else:
+    print("A is not present")
+
 
